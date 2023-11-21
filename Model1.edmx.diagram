@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f9f311a8ed94237856fd5f06a1d40a8" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Articulos" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Clientes" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Lineas" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Proveedores" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Sesiones" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Supermercados" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Usuarios" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Ventas" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK__Articulos__idPro__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Lineas__idArticu__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Ventas__idClient__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Lineas__idVenta__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Sesiones__idSupe__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Sesiones__idUsua__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Ventas__idSesion__46E78A0C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
